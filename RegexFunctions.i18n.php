@@ -372,3 +372,10 @@ $messages['vi'] = array(
 	'regexfunctions-desc' => 'Hàm phân tích biểu thức chính quy',
 );
 
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'regexfunctions-desc' => '正则表达式解析器功能',
+);
+
