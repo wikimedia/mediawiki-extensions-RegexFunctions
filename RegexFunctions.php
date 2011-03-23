@@ -9,9 +9,6 @@ if( !defined( 'MEDIAWIKI' ) ) {
 	die( 1 );
 }
 
-//credits and hooks
-$wgExtensionFunctions[] = 'wfRegexFunctions';
-
 $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'RegexFunctions',
@@ -24,6 +21,9 @@ $wgExtensionCredits['parserhook'][] = array(
 $dir = dirname(__FILE__) . '/';
 $wgExtensionMessagesFiles['RegexFunctions'] = $dir . 'RegexFunctions.i18n.php';
 $wgExtensionMessagesFiles['RegexFunctionsMagic'] = $dir . 'RegexFunctions.i18n.magic.php';
+
+$wgHooks['ParserFirstCallInit'][] = 'ExtRegexFunctions::onParserFirstCallInit';
+$wgHooks['ParserClearState'][] = 'ExtRegexFunctions::onParserClearState';
 
 //default globals
 //how many functions are allowed in a single page? Keep this at least above 3 for usability
@@ -41,28 +41,31 @@ $wgRegexFunctionsLimit = -1;
 //array of functions to disable, aka these functions cannot be used :)
 $wgRegexFunctionsDisable = array();
 
-function wfRegexFunctions() {
-	global $wgParser, $wgExtRegexFunctions;
-
-	$wgExtRegexFunctions = new ExtRegexFunctions();
-	$wgParser->setFunctionHook( 'rmatch', array(&$wgExtRegexFunctions, 'rmatch') );
-	$wgParser->setFunctionHook( 'rsplit', array(&$wgExtRegexFunctions, 'rsplit') );
-	$wgParser->setFunctionHook( 'rreplace', array(&$wgExtRegexFunctions, 'rreplace') );
-}
-
 class ExtRegexFunctions {
-	var $num = 0;
-	var $modifiers = array('i', 'm', 's', 'x', 'A', 'D', 'S', 'U', 'X', 'J', 'u', 'e');
-	var $options = array('i', 'm', 's', 'x', 'U', 'X', 'J');
-	
-	function rmatch ( &$parser, $string = '', $pattern = '', $return = '', $notfound = '', $offset = 0 ) {
+	private static $num = 0;
+	private static $modifiers = array('i', 'm', 's', 'x', 'A', 'D', 'S', 'U', 'X', 'J', 'u', 'e');
+	private static $options = array('i', 'm', 's', 'x', 'U', 'X', 'J');
+
+	public static function onParserFirstCallInit( $parser ) {
+		$parser->setFunctionHook( 'rmatch', array( __CLASS__, 'rmatch' ) );
+		$parser->setFunctionHook( 'rsplit', array( __CLASS__, 'rsplit' ) );
+		$parser->setFunctionHook( 'rreplace', array( __CLASS__, 'rreplace' ) );
+		return true;
+	}
+
+	public static function onParserClearState( $parser ) {
+		self::$num = 0;
+		return true;
+	}
+
+	public static function rmatch ( &$parser, $string = '', $pattern = '', $return = '', $notfound = '', $offset = 0 ) {
 		global $wgRegexFunctionsPerPage, $wgRegexFunctionsAllowModifiers, $wgRegexFunctionsDisable;
 		if(in_array('rmatch', $wgRegexFunctionsDisable))
 			return;
-		$this->num++;
-		if($this->num > $wgRegexFunctionsPerPage)
+		self::$num++;
+		if( self::$num > $wgRegexFunctionsPerPage)
 			return;
-		$pattern = $this->sanitize($pattern, $wgRegexFunctionsAllowModifiers, false);
+		$pattern = self::sanitize($pattern, $wgRegexFunctionsAllowModifiers, false);
 		$num = preg_match( $pattern, $string, $matches, PREG_OFFSET_CAPTURE, (int) $offset );
 		if($num === false)
 			return;
@@ -78,14 +81,14 @@ class ExtRegexFunctions {
 		return $return;
 	}
 
-	function rsplit ( &$parser, $string = '', $pattern = '', $piece = 0 ) {
+	public static function rsplit ( &$parser, $string = '', $pattern = '', $piece = 0 ) {
 		global $wgRegexFunctionsPerPage, $wgRegexFunctionsAllowModifiers, $wgRegexFunctionsLimit, $wgRegexFunctionsDisable;
 		if(in_array('rsplit', $wgRegexFunctionsDisable))
 			return;
-		$this->num++;
-		if($this->num > $wgRegexFunctionsPerPage)
+		self::$num++;
+		if(self::$num > $wgRegexFunctionsPerPage)
 			return;
-		$pattern = $this->sanitize($pattern, $wgRegexFunctionsAllowModifiers, false);
+		$pattern = self::sanitize($pattern, $wgRegexFunctionsAllowModifiers, false);
 		$res = preg_split( $pattern, $string, $wgRegexFunctionsLimit );
 		$p = (int) $piece;
 		//allow negative pieces to work from the end of the array
@@ -99,26 +102,26 @@ class ExtRegexFunctions {
 		return $res[$p];
 	}
 
-	function rreplace ( &$parser, $string = '', $pattern = '', &$replace = '' ) {
+	public static function rreplace ( &$parser, $string = '', $pattern = '', &$replace = '' ) {
 		global $wgRegexFunctionsPerPage, $wgRegexFunctionsAllowModifiers, $wgRegexFunctionsAllowE, $wgRegexFunctionsLimit, $wgRegexFunctionsDisable;
 		if(in_array('rreplace', $wgRegexFunctionsDisable))
 			return;
-		$this->num++;
-		if($this->num > $wgRegexFunctionsPerPage)
+		self::$num++;
+		if(self::$num > $wgRegexFunctionsPerPage)
 			return;
-		$pattern = $this->sanitize($pattern, $wgRegexFunctionsAllowModifiers, $wgRegexFunctionsAllowE);
+		$pattern = self::sanitize($pattern, $wgRegexFunctionsAllowModifiers, $wgRegexFunctionsAllowE);
 		$res = preg_replace($pattern, $replace, $string, $wgRegexFunctionsLimit);
 		return $res;
 	}
 	
 	//santizes a regex pattern
-	function sanitize($pattern, $m = false, $e = false) {
+	private static function sanitize($pattern, $m = false, $e = false) {
 		if(preg_match('/^\/(.*)([^\\\\])\/(.*?)$/', $pattern, $matches)) {
-			$pat = preg_replace('/([^\\\\])?\(\?(.*\:)?(.*)\)/Ue', '\'$1(?\' . $this->cleanupInternal(\'$2\') . \'$3)\'', $matches[1] . $matches[2]);
+			$pat = preg_replace('/([^\\\\])?\(\?(.*\:)?(.*)\)/Ue', '\'$1(?\' . self::cleanupInternal(\'$2\') . \'$3)\'', $matches[1] . $matches[2]);
 			$ret = '/' . $pat . '/';
 			if($m) {
 				$mod = '';
-				foreach($this->modifiers as $val) {
+				foreach(self::$modifiers as $val) {
 					if(strpos($matches[3], $val) !== false)
 						$mod .= $val;
 				}
@@ -127,7 +130,7 @@ class ExtRegexFunctions {
 				$ret .= $mod;
 			}
 		} else {
-			$pat = preg_replace('/([^\\\\])?\(\?(.*\:)?(.*)\)/Ue', '\'$1(?\' . $this->cleanupInternal(\'$2\') . \'$3)\'', $pattern);
+			$pat = preg_replace('/([^\\\\])?\(\?(.*\:)?(.*)\)/Ue', '\'$1(?\' . self::cleanupInternal(\'$2\') . \'$3)\'', $pattern);
 			$pat = preg_replace('!([^\\\\])/!', '$1\\/', $pat);
 			$ret = '/' . $pat . '/';
 		}
@@ -135,12 +138,12 @@ class ExtRegexFunctions {
 	}
 	
 	//cleans up internal options, making sure they are valid
-	function cleanupInternal($str) {
+	private static function cleanupInternal($str) {
 		global $wgRegexFunctionsAllowOptions;
 		$ret = '';
 		if(!$wgRegexFunctionsAllowOptions)
 			return '';
-		foreach($this->options as $opt) {
+		foreach(self::$options as $opt) {
 			if(strpos($str, $opt) !== false)
 				$ret .= $opt;
 		}
