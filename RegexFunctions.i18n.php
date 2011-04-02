@@ -1,6 +1,6 @@
 <?php
 /**
- * Internationalisation file for extension RegexFunctions.
+ * Internationalisation file for RegexFunctions extension.
  *
  * @file
  * @ingroup Extensions
@@ -8,6 +8,7 @@
 
 $messages = array();
 
+/** English */
 $messages['en'] = array(
 	'regexfunctions-desc' => 'Regular expression parser functions',
 );
@@ -100,7 +101,7 @@ $messages['eu'] = array(
  * @author Vililikku
  */
 $messages['fi'] = array(
-	'regexfunctions-desc' => 'Säännöllisten lausekkeiden jäsennysfunktioita.',
+	'regexfunctions-desc' => 'Säännöllisten lausekkeiden jäsennysfunktioita',
 );
 
 /** French (Français)
