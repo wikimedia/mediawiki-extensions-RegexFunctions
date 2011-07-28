@@ -231,6 +231,13 @@ $messages['mk'] = array(
 	'regexfunctions-desc' => 'Парсерски функции со регуларен израз',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'regexfunctions-desc' => 'Fungsi penghurai ungkapan nalar',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
