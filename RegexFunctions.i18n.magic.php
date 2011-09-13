@@ -33,6 +33,11 @@ $magicWords['mk'] = array(
 	'rreplace' => array( 0, 'рзамени' ),
 );
 
+/** Nedersaksisch (Nedersaksisch) */
+$magicWords['nds-nl'] = array(
+	'rmatch' => array( 0, 'rvergelieken' ),
+);
+
 /** Dutch (Nederlands) */
 $magicWords['nl'] = array(
 	'rmatch' => array( 0, 'rvergelijken' ),
@@ -40,7 +45,7 @@ $magicWords['nl'] = array(
 	'rreplace' => array( 0, 'rvervangen' ),
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
 $magicWords['sr-ec'] = array(
 	'rmatch' => array( 0, 'рпоклопи' ),
 	'rsplit' => array( 0, 'рраздвоји', 'рподели' ),
