@@ -338,11 +338,12 @@ $messages['sk'] = array(
 	'regexfunctions-desc' => 'Funkcie syntaktického analyzátora regulárnych výrazov',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
-	'regexfunctions-desc' => 'Парсерске функције за регуларне изразе',
+	'regexfunctions-desc' => 'Рашчлањивачке функције с регуларним изразом',
 );
 
 /** Serbian Latin ekavian (‪Srpski (latinica)‬)
