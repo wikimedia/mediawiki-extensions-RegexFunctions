@@ -113,9 +113,10 @@ $messages['fi'] = array(
 
 /** French (Français)
  * @author Grondin
+ * @author Urhixidur
  */
 $messages['fr'] = array(
-	'regexfunctions-desc' => 'Fonctions parseurs des expressions régulières',
+	'regexfunctions-desc' => 'Fonctions parseurs des expressions rationnelles',
 );
 
 /** Franco-Provençal (Arpetan)
