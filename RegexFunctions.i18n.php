@@ -347,7 +347,7 @@ $messages['sr-ec'] = array(
 	'regexfunctions-desc' => 'Рашчлањивачке функције с регуларним изразом',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
