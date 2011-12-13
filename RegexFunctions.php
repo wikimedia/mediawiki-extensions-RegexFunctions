@@ -22,7 +22,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'author' => 'Ryan Schmidt',
 	'version' => '1.4.1',
 	'descriptionmsg' => 'regexfunctions-desc',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:RegexFunctions',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:RegexFunctions',
 );
 
 $dir = dirname( __FILE__ ) . '/';
