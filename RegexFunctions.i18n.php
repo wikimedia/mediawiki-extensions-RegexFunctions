@@ -396,3 +396,8 @@ $messages['zh-hans'] = array(
 	'regexfunctions-desc' => '正则表达式解析器功能',
 );
 
+/** Traditional Chinese (‪中文(繁體)‬) */
+$messages['zh-hant'] = array(
+	'regexfunctions-desc' => '正則表達式解析器功能',
+);
+
