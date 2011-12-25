@@ -246,6 +246,13 @@ $messages['ms'] = array(
 	'regexfunctions-desc' => 'Fungsi penghurai ungkapan nalar',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nb'] = array(
+	'regexfunctions-desc' => 'Parserfunksjon for regulære uttrykk',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -265,13 +272,6 @@ $messages['nl'] = array(
  */
 $messages['nn'] = array(
 	'regexfunctions-desc' => 'Parserfunksjonar for regulære uttrykk',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
-$messages['nb'] = array(
-	'regexfunctions-desc' => 'Parserfunksjon for regulære uttrykk',
 );
 
 /** Occitan (Occitan)
@@ -349,9 +349,10 @@ $messages['sr-ec'] = array(
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
+ * @author Rancher
  */
 $messages['sr-el'] = array(
-	'regexfunctions-desc' => 'Parserske funkcije za regularne izraze',
+	'regexfunctions-desc' => 'Raščlanjivačke funkcije s regularnim izrazom',
 );
 
 /** Swedish (Svenska)
