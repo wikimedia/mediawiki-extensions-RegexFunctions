@@ -51,3 +51,10 @@ $magicWords['sr-ec'] = array(
 	'rsplit' => array( 0, 'рраздвоји', 'рподели' ),
 	'rreplace' => array( 0, 'рзамени' ),
 );
+
+/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+$magicWords['sr-el'] = array(
+	'rmatch' => array( 0, 'rpoklopi' ),
+	'rsplit' => array( 0, 'rrazdvoji', 'rpodeli' ),
+	'rreplace' => array( 0, 'rzameni' ),
+);
