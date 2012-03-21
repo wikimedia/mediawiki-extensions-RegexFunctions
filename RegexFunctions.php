@@ -5,7 +5,7 @@
  * @file
  * @ingroup Extensions
  * @author Ryan Schmidt
- * @version 1.4.1
+ * @version 1.4.2
  * @license http://en.wikipedia.org/wiki/Public_domain Public domain
  * @link http://www.mediawiki.org/wiki/Extension:RegexFunctions Documentation
  */
@@ -20,7 +20,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'RegexFunctions',
 	'author' => 'Ryan Schmidt',
-	'version' => '1.4.1',
+	'version' => '1.4.2',
 	'descriptionmsg' => 'regexfunctions-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:RegexFunctions',
 );
@@ -146,7 +146,7 @@ class ExtRegexFunctions {
 		return $res[$p];
 	}
 
-	public static function rreplace( &$parser, $string = '', $pattern = '', &$replace = '' ) {
+	public static function rreplace( &$parser, $string = '', $pattern = '', $replace = '' ) {
 		global $wgRegexFunctionsPerPage, $wgRegexFunctionsAllowModifiers, $wgRegexFunctionsAllowE, $wgRegexFunctionsLimit, $wgRegexFunctionsDisable;
 		if( in_array( 'rreplace', $wgRegexFunctionsDisable ) ) {
 			return;
