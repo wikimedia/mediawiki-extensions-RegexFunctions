@@ -19,6 +19,13 @@ $magicWords['ar'] = array(
 	'rreplace' => array( 0, 'استبدال_ريجيكس' ),
 );
 
+/** German (Deutsch) */
+$magicWords['de'] = array(
+	'rmatch' => array( 0, 'r_zuordnen' ),
+	'rsplit' => array( 0, 'r_aufteilen' ),
+	'rreplace' => array( 0, 'r_ersetzen' ),
+);
+
 /** Japanese (日本語) */
 $magicWords['ja'] = array(
 	'rmatch' => array( 0, '正規表現一致' ),
