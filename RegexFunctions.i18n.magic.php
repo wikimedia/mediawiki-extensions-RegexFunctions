@@ -33,7 +33,14 @@ $magicWords['ja'] = array(
 	'rreplace' => array( 0, '正規表現置き換え' ),
 );
 
-/** Macedonian (Македонски) */
+/** Korean (한국어) */
+$magicWords['ko'] = array(
+	'rmatch' => array( 0, 'r찾기' ),
+	'rsplit' => array( 0, 'r분할' ),
+	'rreplace' => array( 0, 'r바꾸기' ),
+);
+
+/** Macedonian (македонски) */
 $magicWords['mk'] = array(
 	'rmatch' => array( 0, 'рсовпадни' ),
 	'rsplit' => array( 0, 'родвој' ),
@@ -52,14 +59,14 @@ $magicWords['nl'] = array(
 	'rreplace' => array( 0, 'rvervangen' ),
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
 $magicWords['sr-ec'] = array(
 	'rmatch' => array( 0, 'рпоклопи' ),
 	'rsplit' => array( 0, 'рраздвоји', 'рподели' ),
 	'rreplace' => array( 0, 'рзамени' ),
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $magicWords['sr-el'] = array(
 	'rmatch' => array( 0, 'rpoklopi' ),
 	'rsplit' => array( 0, 'rrazdvoji', 'rpodeli' ),
