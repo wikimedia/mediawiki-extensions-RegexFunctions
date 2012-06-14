@@ -35,7 +35,7 @@ $messages['arz'] = array(
 	'regexfunctions-desc' => 'دوال محلل تعبيرات منتظمة',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -49,21 +49,21 @@ $messages['be-tarask'] = array(
 	'regexfunctions-desc' => 'Функцыі парсэра для працы з рэгулярнымі выразамі',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'regexfunctions-desc' => "Arc'hwelioù parser lavarennoù reoliek",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
 	'regexfunctions-desc' => 'Regularni izraz parserskih funkcija',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -89,21 +89,21 @@ $messages['el'] = array(
 	'regexfunctions-desc' => 'Λεξιαναλυτικές συναρτήσεις τακτικών εκφράσεων',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Sanbec
  */
 $messages['es'] = array(
 	'regexfunctions-desc' => 'Funciones sintácticas de expresiones regulares',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Theklan
  */
 $messages['eu'] = array(
 	'regexfunctions-desc' => 'Espresio erregularra parser funtzioa',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nike
  * @author Vililikku
  */
@@ -111,7 +111,7 @@ $messages['fi'] = array(
 	'regexfunctions-desc' => 'Säännöllisten lausekkeiden jäsennysfunktioita',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author Urhixidur
  */
@@ -119,7 +119,7 @@ $messages['fr'] = array(
 	'regexfunctions-desc' => 'Fonctions parseurs des expressions rationnelles',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -154,7 +154,7 @@ $messages['hil'] = array(
 	'regexfunctions-desc' => 'Regular nga ekspresyon parser panksiyon',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  */
 $messages['hr'] = array(
@@ -168,7 +168,7 @@ $messages['hsb'] = array(
 	'regexfunctions-desc' => 'Analyzowanske funkcije za regularne wurazy',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -176,7 +176,7 @@ $messages['hu'] = array(
 	'regexfunctions-desc' => 'Értelmezőfüggvények reguláris kifejezések használatához',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -190,7 +190,7 @@ $messages['id'] = array(
 	'regexfunctions-desc' => 'Fungsi parser untuk "regular expression" (regex)',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -232,7 +232,7 @@ $messages['li'] = array(
 	'regexfunctions-desc' => 'Regelierexpressieparserfunksje',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -267,7 +267,7 @@ $messages['nl'] = array(
 	'regexfunctions-desc' => 'Parserfuncties voor reguliere expressies',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -275,14 +275,14 @@ $messages['nn'] = array(
 	'regexfunctions-desc' => 'Parserfunksjonar for regulære uttrykk',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
 	'regexfunctions-desc' => 'Foncions parsers de las expressions regularas',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Matma Rex
  * @author Sp5uhe
  */
@@ -297,7 +297,7 @@ $messages['pms'] = array(
 	'regexfunctions-desc' => "Fonsion ëd parser d'espression regolar",
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Waldir
  */
@@ -305,42 +305,42 @@ $messages['pt'] = array(
 	'regexfunctions-desc' => 'Funções do analisador sintático para expressões regulares',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
 	'regexfunctions-desc' => 'Funções de análise (parser) para expressões regulares',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
 	'regexfunctions-desc' => 'Funcții de parsare a expresiilor regulate',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'regexfunctions-desc' => "Funziune d'u 'nderprete de le espressiune regolere",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  */
 $messages['ru'] = array(
 	'regexfunctions-desc' => 'Функции парсера с регулярными выражениями',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
 	'regexfunctions-desc' => 'Funkcie syntaktického analyzátora regulárnych výrazov',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -348,7 +348,7 @@ $messages['sr-ec'] = array(
 	'regexfunctions-desc' => 'Рашчлањивачке функције с регуларним изразом',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Rancher
  */
@@ -356,7 +356,7 @@ $messages['sr-el'] = array(
 	'regexfunctions-desc' => 'Raščlanjivačke funkcije s regularnim izrazom',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  */
 $messages['sv'] = array(
@@ -377,7 +377,7 @@ $messages['tr'] = array(
 	'regexfunctions-desc' => 'Kurallı ifade ayrıştırıcı fonksiyonları',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  */
 $messages['uk'] = array(
@@ -391,14 +391,14 @@ $messages['vi'] = array(
 	'regexfunctions-desc' => 'Hàm phân tích biểu thức chính quy',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  */
 $messages['zh-hans'] = array(
 	'regexfunctions-desc' => '正则表达式解析器功能',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $messages['zh-hant'] = array(
 	'regexfunctions-desc' => '正則表達式解析器功能',
 );
