@@ -42,7 +42,7 @@ $messages['ast'] = array(
 	'regexfunctions-desc' => "Funciones de analís d'espresiones regulares",
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -75,7 +75,7 @@ $messages['de'] = array(
 	'regexfunctions-desc' => 'Parserfunktionen für reguläre Ausdrücke',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -126,7 +126,7 @@ $messages['frp'] = array(
 	'regexfunctions-desc' => 'Fonccions du parsor de les èxprèssions racionèles',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -161,7 +161,7 @@ $messages['hr'] = array(
 	'regexfunctions-desc' => 'Parserske funkcije s regularnim izrazom',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
