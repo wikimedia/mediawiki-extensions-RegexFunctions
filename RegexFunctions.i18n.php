@@ -246,9 +246,7 @@ $messages['ms'] = array(
 	'regexfunctions-desc' => 'Fungsi penghurai ungkapan nalar',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'regexfunctions-desc' => 'Parserfunksjon for regulære uttrykk',
 );
