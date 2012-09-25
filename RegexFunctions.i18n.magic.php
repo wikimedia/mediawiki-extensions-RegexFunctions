@@ -59,14 +59,14 @@ $magicWords['nl'] = array(
 	'rreplace' => array( 0, 'rvervangen' ),
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $magicWords['sr-ec'] = array(
 	'rmatch' => array( 0, 'рпоклопи' ),
 	'rsplit' => array( 0, 'рраздвоји', 'рподели' ),
 	'rreplace' => array( 0, 'рзамени' ),
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $magicWords['sr-el'] = array(
 	'rmatch' => array( 0, 'rpoklopi' ),
 	'rsplit' => array( 0, 'rrazdvoji', 'rpodeli' ),
