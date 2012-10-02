@@ -42,7 +42,7 @@ $messages['ast'] = array(
 	'regexfunctions-desc' => "Funciones de analís d'espresiones regulares",
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -246,7 +246,7 @@ $messages['ms'] = array(
 	'regexfunctions-desc' => 'Fungsi penghurai ungkapan nalar',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'regexfunctions-desc' => 'Parserfunksjon for regulære uttrykk',
 );
@@ -265,7 +265,7 @@ $messages['nl'] = array(
 	'regexfunctions-desc' => 'Parserfuncties voor reguliere expressies',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -338,7 +338,7 @@ $messages['sk'] = array(
 	'regexfunctions-desc' => 'Funkcie syntaktického analyzátora regulárnych výrazov',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -346,7 +346,7 @@ $messages['sr-ec'] = array(
 	'regexfunctions-desc' => 'Рашчлањивачке функције с регуларним изразом',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Rancher
  */
@@ -389,14 +389,14 @@ $messages['vi'] = array(
 	'regexfunctions-desc' => 'Hàm phân tích biểu thức chính quy',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  */
 $messages['zh-hans'] = array(
 	'regexfunctions-desc' => '正则表达式解析器功能',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $messages['zh-hant'] = array(
 	'regexfunctions-desc' => '正則表達式解析器功能',
 );
