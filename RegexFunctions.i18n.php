@@ -70,7 +70,8 @@ $messages['ca'] = array(
 	'regexfunctions-desc' => 'Funcions parser amb expressions regulars (regexp)',
 );
 
-/** German (Deutsch) */
+/** German (Deutsch)
+ */
 $messages['de'] = array(
 	'regexfunctions-desc' => 'Parserfunktionen für reguläre Ausdrücke',
 );
@@ -246,7 +247,8 @@ $messages['ms'] = array(
 	'regexfunctions-desc' => 'Fungsi penghurai ungkapan nalar',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'regexfunctions-desc' => 'Parserfunksjon for regulære uttrykk',
 );
@@ -396,8 +398,8 @@ $messages['zh-hans'] = array(
 	'regexfunctions-desc' => '正则表达式解析器功能',
 );
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）‎)
+ */
 $messages['zh-hant'] = array(
 	'regexfunctions-desc' => '正則表達式解析器功能',
 );
-
