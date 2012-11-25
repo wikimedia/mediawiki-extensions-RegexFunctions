@@ -104,6 +104,13 @@ $messages['eu'] = array(
 	'regexfunctions-desc' => 'Espresio erregularra parser funtzioa',
 );
 
+/** Persian (فارسی)
+ * @author ZxxZxxZ
+ */
+$messages['fa'] = array(
+	'regexfunctions-desc' => 'توابع تجزیه‌گر عبارت باقاعده',
+);
+
 /** Finnish (suomi)
  * @author Nike
  * @author Vililikku
