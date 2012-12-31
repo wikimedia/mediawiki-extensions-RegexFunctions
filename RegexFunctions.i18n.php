@@ -70,6 +70,13 @@ $messages['ca'] = array(
 	'regexfunctions-desc' => 'Funcions parser amb expressions regulars (regexp)',
 );
 
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'regexfunctions-desc' => 'Funkce parseru pro regulární výrazy',
+);
+
 /** German (Deutsch)
  */
 $messages['de'] = array(
