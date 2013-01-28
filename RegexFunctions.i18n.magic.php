@@ -47,7 +47,7 @@ $magicWords['mk'] = array(
 	'rreplace' => array( 0, 'рзамени' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $magicWords['nds-nl'] = array(
 	'rmatch' => array( 0, 'rvergelieken' ),
 );
