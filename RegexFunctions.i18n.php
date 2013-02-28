@@ -15,10 +15,11 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author Shirayuki
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'regexfunctions-desc' => '{{desc}}',
+	'regexfunctions-desc' => '{{desc|name=Regex Functions|url=http://www.mediawiki.org/wiki/Extension:RegexFunctions}}',
 );
 
 /** Arabic (العربية)
