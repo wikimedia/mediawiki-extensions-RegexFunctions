@@ -248,6 +248,13 @@ $messages['li'] = array(
 	'regexfunctions-desc' => 'Regelierexpressieparserfunksje',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'regexfunctions-desc' => 'Fungsi parser untuak "regular expression" (regex)',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
