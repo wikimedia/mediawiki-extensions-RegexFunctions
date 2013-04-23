@@ -231,7 +231,7 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'regexfunctions-desc' => 'Parser-Fungxjuhne met <i lang="en">regular expressions</i> dren.',
+	'regexfunctions-desc' => 'Paaser-Fungxjuhne met rejolähre Ußdrök dren.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
