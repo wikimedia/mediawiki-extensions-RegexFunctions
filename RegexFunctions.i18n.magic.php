@@ -47,6 +47,13 @@ $magicWords['mk'] = array(
 	'rreplace' => array( 0, 'рзамени' ),
 );
 
+/** Marathi (मराठी) */
+$magicWords['mr'] = array(
+	'rmatch' => array( 0, 'रिजुळवा', 'रजुळवा' ),
+	'rsplit' => array( 0, 'रितोडा', 'रतोडा' ),
+	'rreplace' => array( 0, 'रिबदला', 'रबदला' ),
+);
+
 /** Low Saxon (Netherlands) (Nedersaksies) */
 $magicWords['nds-nl'] = array(
 	'rmatch' => array( 0, 'rvergelieken' ),
