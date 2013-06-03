@@ -269,7 +269,7 @@ $messages['ms'] = array(
 	'regexfunctions-desc' => 'Fungsi penghurai ungkapan nalar',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'regexfunctions-desc' => 'Parserfunksjon for regulære uttrykk',
@@ -289,7 +289,7 @@ $messages['nl'] = array(
 	'regexfunctions-desc' => 'Parserfuncties voor reguliere expressies',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Njardarlogar
  */
