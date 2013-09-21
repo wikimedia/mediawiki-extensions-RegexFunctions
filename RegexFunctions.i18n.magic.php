@@ -47,6 +47,13 @@ $magicWords['mk'] = array(
 	'rreplace' => array( 0, 'рзамени' ),
 );
 
+/** Malayalam (മലയാളം) */
+$magicWords['ml'] = array(
+	'rmatch' => array( 0, 'ചേരുമ്പടി' ),
+	'rsplit' => array( 0, 'വിഘടിപ്പിക്കൽ' ),
+	'rreplace' => array( 0, 'മാറ്റിച്ചേർക്കൽ' ),
+);
+
 /** Marathi (मराठी) */
 $magicWords['mr'] = array(
 	'rmatch' => array( 0, 'रिजुळवा', 'रजुळवा' ),
