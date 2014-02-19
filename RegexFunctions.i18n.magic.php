@@ -19,6 +19,13 @@ $magicWords['ar'] = array(
 	'rreplace' => array( 0, 'استبدال_ريجيكس' ),
 );
 
+/** Egyptian Spoken Arabic (مصرى) */
+$magicWords['arz'] = array(
+	'rmatch' => array( 0, 'مطابقه_ريجيكس' ),
+	'rsplit' => array( 0, 'فصل_ريجيكس' ),
+	'rreplace' => array( 0, 'استبدال_ريجيكس' ),
+);
+
 /** German (Deutsch) */
 $magicWords['de'] = array(
 	'rmatch' => array( 0, 'r_zuordnen' ),
