@@ -259,7 +259,7 @@ $messages['min'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'regexfunctions-desc' => 'Парсерски функции со регуларен израз',
+	'regexfunctions-desc' => 'Расчленувачки функции со регуларен израз',
 );
 
 /** Malay (Bahasa Melayu)
