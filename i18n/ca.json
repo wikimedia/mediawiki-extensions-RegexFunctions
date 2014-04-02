@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "SMP"
+        ]
+    },
+    "regexfunctions-desc": "Funcions parser amb expressions regulars (regexp)"
+}

@@ -5,7 +5,6 @@
  * @file
  * @ingroup Extensions
  * @author Ryan Schmidt
- * @version 1.4.3
  * @license http://en.wikipedia.org/wiki/Public_domain Public domain
  * @link http://www.mediawiki.org/wiki/Extension:RegexFunctions Documentation
  */
@@ -20,12 +19,13 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'RegexFunctions',
 	'author' => 'Ryan Schmidt',
-	'version' => '1.4.3',
+	'version' => '1.5.0',
 	'descriptionmsg' => 'regexfunctions-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:RegexFunctions',
 );
 
 $dir = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['RegexFunctions'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['RegexFunctions'] = $dir . 'RegexFunctions.i18n.php';
 $wgExtensionMessagesFiles['RegexFunctionsMagic'] = $dir . 'RegexFunctions.i18n.magic.php';
 
@@ -168,7 +168,7 @@ class ExtRegexFunctions {
 		);
 		return $res;
 	}
-	
+
 	// santizes a regex pattern
 	private static function sanitize( $pattern, $m = false, $e = false ) {
 		if( preg_match( '/^\/(.*)([^\\\\])\/(.*?)$/', $pattern, $matches ) ) {
@@ -201,7 +201,7 @@ class ExtRegexFunctions {
 		}
 		return $ret;
 	}
-	
+
 	// cleans up internal options, making sure they are valid
 	private static function cleanupInternal( $str ) {
 		global $wgRegexFunctionsAllowOptions;

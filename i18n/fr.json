@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Grondin",
+            "Urhixidur"
+        ]
+    },
+    "regexfunctions-desc": "Fonctions parseurs des expressions rationnelles"
+}
