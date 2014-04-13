@@ -93,3 +93,8 @@ $magicWords['sr-el'] = array(
 	'rsplit' => array( 0, 'rrazdvoji', 'rpodeli' ),
 	'rreplace' => array( 0, 'rzameni' ),
 );
+
+/** Simplified Chinese (中文（简体）‎) */
+$magicWords['zh-hans'] = array(
+	'rreplace' => array( 0, '重新取代' ),
+);
