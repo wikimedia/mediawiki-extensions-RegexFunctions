@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "regexfunctions-desc": "Analyzowanske funkcije za regularne wurazy"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"regexfunctions-desc": "Analyzowanske funkcije za regularne wurazy"
 }

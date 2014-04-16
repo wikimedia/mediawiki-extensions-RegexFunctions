@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Matma Rex",
-            "Sp5uhe"
-        ]
-    },
-    "regexfunctions-desc": "Funkcje parsera obsługi wyrażeń regularnych"
+	"@metadata": {
+		"authors": [
+			"Matma Rex",
+			"Sp5uhe"
+		]
+	},
+	"regexfunctions-desc": "Funkcje parsera obsługi wyrażeń regularnych"
 }

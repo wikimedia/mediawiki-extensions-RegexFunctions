@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Rotemliss"
-        ]
-    },
-    "regexfunctions-desc": "פונקציות פענוח לביטויים רגולריים"
+	"@metadata": {
+		"authors": [
+			"Rotemliss"
+		]
+	},
+	"regexfunctions-desc": "פונקציות פענוח לביטויים רגולריים"
 }

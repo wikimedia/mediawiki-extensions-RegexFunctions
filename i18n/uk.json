@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "AS"
-        ]
-    },
-    "regexfunctions-desc": "Парсерні функції регулярних виразів"
+	"@metadata": {
+		"authors": [
+			"AS"
+		]
+	},
+	"regexfunctions-desc": "Парсерні функції регулярних виразів"
 }

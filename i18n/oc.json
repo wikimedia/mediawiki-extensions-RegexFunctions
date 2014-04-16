@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cedric31"
-        ]
-    },
-    "regexfunctions-desc": "Foncions parsers de las expressions regularas"
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"regexfunctions-desc": "Foncions parsers de las expressions regularas"
 }

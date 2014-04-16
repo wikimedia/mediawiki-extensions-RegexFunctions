@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Nike",
-            "Vililikku"
-        ]
-    },
-    "regexfunctions-desc": "Säännöllisten lausekkeiden jäsennysfunktioita"
+	"@metadata": {
+		"authors": [
+			"Nike",
+			"Vililikku"
+		]
+	},
+	"regexfunctions-desc": "Säännöllisten lausekkeiden jäsennysfunktioita"
 }

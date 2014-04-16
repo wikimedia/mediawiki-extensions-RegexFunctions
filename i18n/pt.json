@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hamilton Abreu",
-            "Waldir"
-        ]
-    },
-    "regexfunctions-desc": "Funções do analisador sintático para expressões regulares"
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Waldir"
+		]
+	},
+	"regexfunctions-desc": "Funções do analisador sintático para expressões regulares"
 }

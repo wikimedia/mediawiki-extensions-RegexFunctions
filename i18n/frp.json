@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "ChrisPtDe"
-        ]
-    },
-    "regexfunctions-desc": "Fonccions du parsor de les èxprèssions racionèles"
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"regexfunctions-desc": "Fonccions du parsor de les èxprèssions racionèles"
 }

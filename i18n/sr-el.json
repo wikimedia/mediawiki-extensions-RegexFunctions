@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michaello",
-            "Rancher"
-        ]
-    },
-    "regexfunctions-desc": "Raščlanjivačke funkcije s regularnim izrazom"
+	"@metadata": {
+		"authors": [
+			"Michaello",
+			"Rancher"
+		]
+	},
+	"regexfunctions-desc": "Raščlanjivačke funkcije s regularnim izrazom"
 }

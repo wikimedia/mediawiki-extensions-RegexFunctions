@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hydra"
-        ]
-    },
-    "regexfunctions-desc": "正则表达式解析器功能"
+	"@metadata": {
+		"authors": [
+			"Hydra"
+		]
+	},
+	"regexfunctions-desc": "正则表达式解析器功能"
 }

@@ -1,6 +1,4 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "regexfunctions-desc": "Parserfunktionen für reguläre Ausdrücke"
+	"@metadata": [],
+	"regexfunctions-desc": "Parserfunktionen für reguläre Ausdrücke"
 }

@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Harald Khan",
-            "Njardarlogar"
-        ]
-    },
-    "regexfunctions-desc": "Parserfunksjonar for regulære uttrykk"
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"regexfunctions-desc": "Parserfunksjonar for regulære uttrykk"
 }

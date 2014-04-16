@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Sanbec"
-        ]
-    },
-    "regexfunctions-desc": "Funciones sintácticas de expresiones regulares"
+	"@metadata": {
+		"authors": [
+			"Sanbec"
+		]
+	},
+	"regexfunctions-desc": "Funciones sintácticas de expresiones regulares"
 }

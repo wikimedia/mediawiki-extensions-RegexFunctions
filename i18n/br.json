@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fulup"
-        ]
-    },
-    "regexfunctions-desc": "Arc'hwelioù parser lavarennoù reoliek"
+	"@metadata": {
+		"authors": [
+			"Fulup"
+		]
+	},
+	"regexfunctions-desc": "Arc'hwelioù parser lavarennoù reoliek"
 }

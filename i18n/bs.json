@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "CERminator"
-        ]
-    },
-    "regexfunctions-desc": "Regularni izraz parserskih funkcija"
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"regexfunctions-desc": "Regularni izraz parserskih funkcija"
 }

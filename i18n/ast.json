@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Xuacu"
-        ]
-    },
-    "regexfunctions-desc": "Funciones de analís d'espresiones regulares"
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"regexfunctions-desc": "Funciones de analís d'espresiones regulares"
 }

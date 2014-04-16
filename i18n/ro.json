@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "KlaudiuMihaila"
-        ]
-    },
-    "regexfunctions-desc": "Funcții de parsare a expresiilor regulate"
+	"@metadata": {
+		"authors": [
+			"KlaudiuMihaila"
+		]
+	},
+	"regexfunctions-desc": "Funcții de parsare a expresiilor regulate"
 }

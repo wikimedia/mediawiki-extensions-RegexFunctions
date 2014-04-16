@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Slomox"
-        ]
-    },
-    "regexfunctions-desc": "Parserfunktionen för reguläre Utdrück"
+	"@metadata": {
+		"authors": [
+			"Slomox"
+		]
+	},
+	"regexfunctions-desc": "Parserfunktionen för reguläre Utdrück"
 }

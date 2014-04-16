@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Omnipaedista"
-        ]
-    },
-    "regexfunctions-desc": "Λεξιαναλυτικές συναρτήσεις τακτικών εκφράσεων"
+	"@metadata": {
+		"authors": [
+			"Omnipaedista"
+		]
+	},
+	"regexfunctions-desc": "Λεξιαναλυτικές συναρτήσεις τακτικών εκφράσεων"
 }

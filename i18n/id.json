@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bennylin"
-        ]
-    },
-    "regexfunctions-desc": "Fungsi parser untuk \"regular expression\" (regex)"
+	"@metadata": {
+		"authors": [
+			"Bennylin"
+		]
+	},
+	"regexfunctions-desc": "Fungsi parser untuk \"regular expression\" (regex)"
 }

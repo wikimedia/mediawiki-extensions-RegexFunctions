@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "regexfunctions-desc": "Funcións de análise de expresións regulares"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"regexfunctions-desc": "Funcións de análise de expresións regulares"
 }

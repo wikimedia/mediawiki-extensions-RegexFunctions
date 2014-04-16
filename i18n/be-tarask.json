@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "EugeneZelenko"
-        ]
-    },
-    "regexfunctions-desc": "Функцыі парсэра для працы з рэгулярнымі выразамі"
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko"
+		]
+	},
+	"regexfunctions-desc": "Функцыі парсэра для працы з рэгулярнымі выразамі"
 }

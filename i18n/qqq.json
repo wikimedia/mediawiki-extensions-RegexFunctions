@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Purodha",
-            "Shirayuki",
-            "The Evil IP address"
-        ]
-    },
-    "regexfunctions-desc": "{{desc|name=Regex Functions|url=http://www.mediawiki.org/wiki/Extension:RegexFunctions}}"
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"Shirayuki",
+			"The Evil IP address"
+		]
+	},
+	"regexfunctions-desc": "{{desc|name=Regex Functions|url=http://www.mediawiki.org/wiki/Extension:RegexFunctions}}"
 }

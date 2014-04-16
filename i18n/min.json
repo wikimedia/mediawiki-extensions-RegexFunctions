@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Iwan Novirion"
-        ]
-    },
-    "regexfunctions-desc": "Fungsi parser untuak \"regular expression\" (regex)"
+	"@metadata": {
+		"authors": [
+			"Iwan Novirion"
+		]
+	},
+	"regexfunctions-desc": "Fungsi parser untuak \"regular expression\" (regex)"
 }

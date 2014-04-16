@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Boivie"
-        ]
-    },
-    "regexfunctions-desc": "Parserfunktioner för Reguljära uttryck"
+	"@metadata": {
+		"authors": [
+			"Boivie"
+		]
+	},
+	"regexfunctions-desc": "Parserfunktioner för Reguljära uttryck"
 }

@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Vito Genovese"
-        ]
-    },
-    "regexfunctions-desc": "Kurallı ifade ayrıştırıcı fonksiyonları"
+	"@metadata": {
+		"authors": [
+			"Vito Genovese"
+		]
+	},
+	"regexfunctions-desc": "Kurallı ifade ayrıştırıcı fonksiyonları"
 }

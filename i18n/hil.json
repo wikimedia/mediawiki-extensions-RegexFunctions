@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Tagimata"
-        ]
-    },
-    "regexfunctions-desc": "Regular nga ekspresyon parser panksiyon"
+	"@metadata": {
+		"authors": [
+			"Tagimata"
+		]
+	},
+	"regexfunctions-desc": "Regular nga ekspresyon parser panksiyon"
 }
