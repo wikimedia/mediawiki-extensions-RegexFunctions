@@ -96,5 +96,7 @@ $magicWords['sr-el'] = array(
 
 /** Simplified Chinese (中文（简体）‎) */
 $magicWords['zh-hans'] = array(
+	'rmatch' => array( 0, '重新匹配' ),
+	'rsplit' => array( 0, '重新分解' ),
 	'rreplace' => array( 0, '重新取代' ),
 );
