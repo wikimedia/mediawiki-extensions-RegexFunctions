@@ -3,8 +3,9 @@
 		"authors": [
 			"Purodha",
 			"Shirayuki",
-			"The Evil IP address"
+			"The Evil IP address",
+			"Umherirrender"
 		]
 	},
-	"regexfunctions-desc": "{{desc|name=Regex Functions|url=http://www.mediawiki.org/wiki/Extension:RegexFunctions}}"
+	"regexfunctions-desc": "{{desc|name=Regex Functions|url=https://www.mediawiki.org/wiki/Extension:RegexFunctions}}"
 }

@@ -100,3 +100,8 @@ $magicWords['zh-hans'] = array(
 	'rsplit' => array( 0, '重新分解' ),
 	'rreplace' => array( 0, '重新取代' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$magicWords['zh-hant'] = array(
+	'rmatch' => array( 0, '重新分配' ),
+);
