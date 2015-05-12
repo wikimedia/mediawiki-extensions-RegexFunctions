@@ -19,7 +19,7 @@ $magicWords['ar'] = array(
 	'rreplace' => array( 0, 'استبدال_ريجيكس' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $magicWords['arz'] = array(
 	'rmatch' => array( 0, 'مطابقه_ريجيكس' ),
 	'rsplit' => array( 0, 'فصل_ريجيكس' ),
