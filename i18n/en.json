@@ -1,6 +1,6 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "regexfunctions-desc": "Regular expression parser functions"
+	"@metadata": {
+		"authors": []
+	},
+	"regexfunctions-desc": "Regular expression parser functions"
 }
