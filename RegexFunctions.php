@@ -36,11 +36,7 @@ $wgHooks['ParserClearState'][] = 'ExtRegexFunctions::onParserClearState';
 // how many functions are allowed in a single page? Keep this at least above 3 for usability
 $wgRegexFunctionsPerPage = 10;
 // should we allow modifiers in the functions, e.g. the /i modifier for case-insensitive?
-// This does NOT enable the /e modifier for preg_replace, see the next variable for that
 $wgRegexFunctionsAllowModifiers = true;
-// should we allow the /e modifier in preg_replace? Requires AllowModifiers to be true.
-// Don't enable this unless you trust every single editor on your wiki, as it may open up potential XSS vectors
-$wgRegexFunctionsAllowE = false;
 // should we allow internal options to be set (e.g. (?opts) or (?opts:some regex))
 $wgRegexFunctionsAllowOptions = true;
 // limit for rsplit and rreplace functions. -1 is unlimited
@@ -78,41 +74,54 @@ class ExtRegexFunctions {
 		}
 		$pattern = self::sanitize(
 			$pattern,
-			$wgRegexFunctionsAllowModifiers,
-			false
+			$wgRegexFunctionsAllowModifiers
 		);
 		$num = preg_match(
 			$pattern, $string, $matches, PREG_OFFSET_CAPTURE, (int) $offset
 		);
-		if( $num === false ) {
+		if ( $num === false ) {
 			return;
 		}
-		if( $num === 0 ) {
+		if ( $num === 0 ) {
+			if ( $notfound == '$0' ) {
+				//Return the original string if specified to display it with $0.
+				return $string;
+			}
 			return $notfound;
 		}
+
 		// change all backslashes to $
 		$return = str_replace( '\\', '%$', $return );
-		$return = preg_replace(
-			'/%?\$%?\$([0-9]+)/e',
-			'array_key_exists($1, $matches) ? $matches[$1][1] : \'\'',
+		$return = preg_replace_callback(
+			'/%?\$%?\$([0-9]+)/',
+			function ( $_callbackMatches ) use ( $matches ) {
+				return array_key_exists($_callbackMatches[1], $matches) ? $matches[$_callbackMatches[1]][1] : '';
+			},
 			$return
 		);
-		$return = preg_replace(
-			'/%?\$%?\$\{([0-9]+)\}/e',
-			'array_key_exists($1, $matches) ? $matches[$1][1] : \'\'',
+		$return = preg_replace_callback(
+			'/%?\$%?\$\{([0-9]+)\}/',
+			function ( $_callbackMatches ) use ( $matches ) {
+				return array_key_exists($_callbackMatches[1], $matches) ? $matches[$_callbackMatches[1]][1] : '';
+			},
 			$return
 		);
-		$return = preg_replace(
-			'/%?\$([0-9]+)/e',
-			'array_key_exists($1, $matches) ? $matches[$1][0] : \'\'',
+		$return = preg_replace_callback(
+			'/%?\$([0-9]+)/',
+			function ( $_callbackMatches ) use ( $matches ) {
+				return array_key_exists($_callbackMatches[1], $matches) ? $matches[$_callbackMatches[1]][0] : '';
+			},
 			$return
 		);
-		$return = preg_replace(
-			'/%?\$\{([0-9]+)\}/e',
-			'array_key_exists($1, $matches) ? $matches[$1][0] : \'\'',
+		$return = preg_replace_callback(
+			'/%?\$\{([0-9]+)\}/',
+			function ( $_callbackMatches ) use ( $matches ) {
+				return array_key_exists($_callbackMatches[1], $matches) ? $matches[$_callbackMatches[1]][0] : '';
+			},
 			$return
 		);
 		$return = str_replace( '%$', '\\', $return );
+
 		return $return;
 	}
 
@@ -127,8 +136,7 @@ class ExtRegexFunctions {
 		}
 		$pattern = self::sanitize(
 			$pattern,
-			$wgRegexFunctionsAllowModifiers,
-			false
+			$wgRegexFunctionsAllowModifiers
 		);
 		$res = preg_split( $pattern, $string, $wgRegexFunctionsLimit );
 		$p = (int) $piece;
@@ -147,7 +155,7 @@ class ExtRegexFunctions {
 	}
 
 	public static function rreplace( &$parser, $string = '', $pattern = '', $replace = '' ) {
-		global $wgRegexFunctionsPerPage, $wgRegexFunctionsAllowModifiers, $wgRegexFunctionsAllowE, $wgRegexFunctionsLimit, $wgRegexFunctionsDisable;
+		global $wgRegexFunctionsPerPage, $wgRegexFunctionsAllowModifiers, $wgRegexFunctionsLimit, $wgRegexFunctionsDisable;
 		if( in_array( 'rreplace', $wgRegexFunctionsDisable ) ) {
 			return;
 		}
@@ -157,8 +165,7 @@ class ExtRegexFunctions {
 		}
 		$pattern = self::sanitize(
 			str_replace(chr(0), '', $pattern),
-			$wgRegexFunctionsAllowModifiers,
-			$wgRegexFunctionsAllowE
+			$wgRegexFunctionsAllowModifiers
 		);
 		$res = preg_replace(
 			$pattern,
@@ -170,11 +177,13 @@ class ExtRegexFunctions {
 	}
 
 	// santizes a regex pattern
-	private static function sanitize( $pattern, $m = false, $e = false ) {
+	private static function sanitize( $pattern, $m = false ) {
 		if( preg_match( '/^\/(.*)([^\\\\])\/(.*?)$/', $pattern, $matches ) ) {
-			$pat = preg_replace(
-				'/([^\\\\])?\(\?(.*\:)?(.*)\)/Ue',
-				'\'$1(?\' . self::cleanupInternal(\'$2\') . \'$3)\'',
+			$pat = preg_replace_callback(
+				'/([^\\\\])?\(\?(.*\:)?(.*)\)/U',
+				function ( $_callbackMatches ) {
+					return "{$_callbackMatches[1]}(" . self::cleanupInternal( $_callbackMatches[2] ) . "{$_callbackMatches[3]})";
+				},
 				$matches[1] . $matches[2]
 			);
 			$ret = '/' . $pat . '/';
@@ -185,15 +194,15 @@ class ExtRegexFunctions {
 						$mod .= $val;
 					}
 				}
-				if( !$e ) {
-					$mod = str_replace( 'e', '', $mod );
-				}
+				$mod = str_replace( 'e', '', $mod ); //Get rid of eval modifier.
 				$ret .= $mod;
 			}
 		} else {
-			$pat = preg_replace(
-				'/([^\\\\])?\(\?(.*\:)?(.*)\)/Ue',
-				'\'$1(?\' . self::cleanupInternal(\'$2\') . \'$3)\'',
+			$pat = preg_replace_callback(
+				'/([^\\\\])?\(\?(.*\:)?(.*)\)/U',
+				function ( $_callbackMatches ) {
+					return "{$_callbackMatches[1]}(" . self::cleanupInternal( $_callbackMatches[2] ) . "{$_callbackMatches[3]})";
+				},
 				$pattern
 			);
 			$pat = preg_replace( '!([^\\\\])/!', '$1\\/', $pat );
@@ -206,10 +215,10 @@ class ExtRegexFunctions {
 	private static function cleanupInternal( $str ) {
 		global $wgRegexFunctionsAllowOptions;
 		$ret = '';
-		if( !$wgRegexFunctionsAllowOptions ) {
+		if ( !$wgRegexFunctionsAllowOptions ) {
 			return '';
 		}
-		foreach( self::$options as $opt ) {
+		foreach ( self::$options as $opt ) {
 			if( strpos( $str, $opt ) !== false ) {
 				$ret .= $opt;
 			}
