@@ -26,7 +26,6 @@ $wgExtensionCredits['parserhook'][] = array(
 
 $dir = dirname( __FILE__ ) . '/';
 $wgMessagesDirs['RegexFunctions'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['RegexFunctions'] = $dir . 'RegexFunctions.i18n.php';
 $wgExtensionMessagesFiles['RegexFunctionsMagic'] = $dir . 'RegexFunctions.i18n.magic.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'ExtRegexFunctions::onParserFirstCallInit';
