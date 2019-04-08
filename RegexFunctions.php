@@ -6,7 +6,7 @@
  * @ingroup Extensions
  * @author Ryan Schmidt
  * @license http://en.wikipedia.org/wiki/Public_domain Public domain
- * @link http://www.mediawiki.org/wiki/Extension:RegexFunctions Documentation
+ * @link https://www.mediawiki.org/wiki/Extension:RegexFunctions Documentation
  */
 
 if( !defined( 'MEDIAWIKI' ) ) {
