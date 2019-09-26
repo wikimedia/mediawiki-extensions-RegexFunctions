@@ -9,20 +9,20 @@
  * @link https://www.mediawiki.org/wiki/Extension:RegexFunctions Documentation
  */
 
-if( !defined( 'MEDIAWIKI' ) ) {
+if ( !defined( 'MEDIAWIKI' ) ) {
 	echo "This file is an extension of the MediaWiki software and cannot be used standalone\n";
 	die( 1 );
 }
 
 // Extension credits that will show up on Special:Version
-$wgExtensionCredits['parserhook'][] = array(
+$wgExtensionCredits['parserhook'][] = [
 	'path' => __FILE__,
 	'name' => 'RegexFunctions',
 	'author' => 'Ryan Schmidt',
 	'version' => '1.5.0',
 	'descriptionmsg' => 'regexfunctions-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:RegexFunctions',
-);
+];
 
 $wgMessagesDirs['RegexFunctions'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['RegexFunctionsMagic'] = __DIR__ . '/RegexFunctions.i18n.magic.php';
@@ -42,4 +42,4 @@ $wgRegexFunctionsAllowOptions = true;
 // limit for rsplit and rreplace functions. -1 is unlimited
 $wgRegexFunctionsLimit = -1;
 // array of functions to disable, aka these functions cannot be used :)
-$wgRegexFunctionsDisable = array();
+$wgRegexFunctionsDisable = [];
