@@ -1,6 +1,16 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": ["Ryan Schmidt"]
 	},
-	"regexfunctions-desc": "Regular expression parser functions"
+	"regexfunctions-desc": "Regular expression parser functions",
+	"regexfunctions-arg-pattern": "pattern",
+	"regexfunctions-arg-multiline": "multiline",
+	"regexfunctions-arg-caseless": "caseless",
+	"regexfunctions-arg-ungreedy": "ungreedy",
+	"regexfunctions-arg-extended": "extended",
+	"regexfunctions-arg-dotall": "dotall",
+	"regexfunctions-arg-then": "then",
+	"regexfunctions-arg-else": "else",
+	"regexfunctions-arg-piece": "piece",
+	"regexfunctions-arg-replacement": "replacement"
 }

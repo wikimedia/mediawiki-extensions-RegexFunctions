@@ -7,5 +7,15 @@
 			"Umherirrender"
 		]
 	},
-	"regexfunctions-desc": "{{desc|name=Regex Functions|url=https://www.mediawiki.org/wiki/Extension:RegexFunctions}}"
+	"regexfunctions-desc": "{{desc|name=Regex Functions|url=https://www.mediawiki.org/wiki/Extension:RegexFunctions}}",
+	"regexfunctions-arg-pattern": "Name of the template parameter which passes the regex pattern",
+	"regexfunctions-arg-multiline": "Name of the template parameter which specifies that the regex operates in multi-line mode",
+	"regexfunctions-arg-caseless": "Name of the template parameter which specifies that the regex operates in case-insensitive mode",
+	"regexfunctions-arg-ungreedy": "Name of the template parameter which specifies that the regex operates in a mode where <code>*</code> and <code>+</code> are not greedy, but <code>*?</code> and <code>+?</code> are greedy",
+	"regexfunctions-arg-extended": "Name of the template parameter which specifies that the regex operates in a mode where comments and whitespace are allowed (called \"extended mode\" by PHP)",
+	"regexfunctions-arg-dotall": "Name of the template parameter which specifies that the regex operates in a mode where <code>.</code> matches every character",
+	"regexfunctions-arg-then": "Name of the template parameter which passes the text to show on a successful match",
+	"regexfunctions-arg-else": "Name of the template parameter which passes the text to show on a failed match",
+	"regexfunctions-arg-piece": "Name of the template parameter which passes the piece number to display",
+	"regexfunctions-arg-replacement": "Name of the template parameter which passes the replacement text to apply"
 }
