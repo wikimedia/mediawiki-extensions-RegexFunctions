@@ -1,8 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eduardo.mps"
+			"Eduardo.mps",
+			"Eduardo Addad de Oliveira"
 		]
 	},
-	"regexfunctions-desc": "Funções de análise (parser) para expressões regulares"
+	"regexfunctions-desc": "Funções de análise (parser) para expressões regulares",
+	"regexfunctions-arg-pattern": "padrão",
+	"regexfunctions-arg-multiline": "multilinha",
+	"regexfunctions-arg-caseless": "sem invólucro",
+	"regexfunctions-arg-ungreedy": "ingrato",
+	"regexfunctions-arg-extended": "estendido",
+	"regexfunctions-arg-dotall": "dotall",
+	"regexfunctions-arg-then": "então",
+	"regexfunctions-arg-else": "senão",
+	"regexfunctions-arg-piece": "peça",
+	"regexfunctions-arg-replacement": "substituição"
 }

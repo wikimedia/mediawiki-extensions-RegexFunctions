@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sanbec"
+			"Sanbec",
+			"Fitoschido"
 		]
 	},
-	"regexfunctions-desc": "Funciones sintácticas de expresiones regulares"
+	"regexfunctions-desc": "Funciones sintácticas de expresiones regulares",
+	"regexfunctions-arg-pattern": "patrón",
+	"regexfunctions-arg-multiline": "multirrenglón",
+	"regexfunctions-arg-caseless": "sin distinción de mayusculación",
+	"regexfunctions-arg-replacement": "sustitución"
 }

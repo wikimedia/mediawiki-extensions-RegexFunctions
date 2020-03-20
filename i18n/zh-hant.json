@@ -1,4 +1,18 @@
 {
-	"@metadata": [],
-	"regexfunctions-desc": "正則表達式解析器功能"
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"regexfunctions-desc": "正規表達式解析器功能",
+	"regexfunctions-arg-pattern": "比對模式",
+	"regexfunctions-arg-multiline": "多行",
+	"regexfunctions-arg-caseless": "不區分大小寫",
+	"regexfunctions-arg-ungreedy": "ungreedy",
+	"regexfunctions-arg-extended": "extended",
+	"regexfunctions-arg-dotall": "dotall",
+	"regexfunctions-arg-then": "然後",
+	"regexfunctions-arg-else": "否則",
+	"regexfunctions-arg-piece": "piece",
+	"regexfunctions-arg-replacement": "替換"
 }

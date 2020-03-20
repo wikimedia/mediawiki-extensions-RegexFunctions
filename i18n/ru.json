@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ferrer"
+			"Ferrer",
+			"Alexander Yukal"
 		]
 	},
-	"regexfunctions-desc": "Функции парсера с регулярными выражениями"
+	"regexfunctions-desc": "Функции парсера с регулярными выражениями",
+	"regexfunctions-arg-pattern": "шаблон",
+	"regexfunctions-arg-multiline": "многострочный",
+	"regexfunctions-arg-ungreedy": "не жадный",
+	"regexfunctions-arg-extended": "расширенный",
+	"regexfunctions-arg-then": "затем",
+	"regexfunctions-arg-piece": "часть",
+	"regexfunctions-arg-replacement": "замена"
 }
