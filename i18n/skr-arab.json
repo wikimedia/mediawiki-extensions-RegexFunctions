@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"regexfunctions-arg-pattern": "نمونہ ترتیب نال",
+	"regexfunctions-arg-caseless": "جماعتاں",
+	"regexfunctions-arg-then": "وت",
+	"regexfunctions-arg-else": "وکھرا",
+	"regexfunctions-arg-piece": "ٹوٹا"
+}

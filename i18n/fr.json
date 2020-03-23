@@ -2,8 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Grondin",
-			"Urhixidur"
+			"Urhixidur",
+			"Gomoko"
 		]
 	},
-	"regexfunctions-desc": "Fonctions d’analyse syntaxique concernant les expressions rationnelles"
+	"regexfunctions-desc": "Fonctions d’analyse syntaxique concernant les expressions rationnelles",
+	"regexfunctions-arg-pattern": "modèle",
+	"regexfunctions-arg-multiline": "multiligne",
+	"regexfunctions-arg-caseless": "insensible à la casse",
+	"regexfunctions-arg-ungreedy": "restreint",
+	"regexfunctions-arg-extended": "étendu",
+	"regexfunctions-arg-dotall": "point joker",
+	"regexfunctions-arg-then": "alors",
+	"regexfunctions-arg-else": "sinon",
+	"regexfunctions-arg-piece": "morceau",
+	"regexfunctions-arg-replacement": "remplacement"
 }

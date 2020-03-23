@@ -1,8 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"AS"
+			"AS",
+			"Piramidion"
 		]
 	},
-	"regexfunctions-desc": "Парсерні функції регулярних виразів"
+	"regexfunctions-desc": "Парсерні функції регулярних виразів",
+	"regexfunctions-arg-pattern": "патерн",
+	"regexfunctions-arg-multiline": "багаторядковий",
+	"regexfunctions-arg-caseless": "безрегістровий",
+	"regexfunctions-arg-ungreedy": "нежадібний",
+	"regexfunctions-arg-extended": "розширений",
+	"regexfunctions-arg-dotall": "крапкавсі",
+	"regexfunctions-arg-then": "тоді",
+	"regexfunctions-arg-else": "інакше",
+	"regexfunctions-arg-piece": "частина",
+	"regexfunctions-arg-replacement": "заміна"
 }
