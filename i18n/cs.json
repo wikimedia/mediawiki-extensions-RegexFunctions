@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vks",
-			"Matěj Grabovský"
+			"Matěj Grabovský",
+			"Vks"
 		]
 	},
 	"regexfunctions-desc": "Funkce syntaktického analyzátoru pro regulární výrazy"

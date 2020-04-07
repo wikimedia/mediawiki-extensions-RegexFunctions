@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Gomoko",
 			"Grondin",
-			"Urhixidur",
-			"Gomoko"
+			"Urhixidur"
 		]
 	},
 	"regexfunctions-desc": "Fonctions d’analyse syntaxique concernant les expressions rationnelles",

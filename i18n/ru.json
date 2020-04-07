@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ferrer",
-			"Alexander Yukal"
+			"Alexander Yukal",
+			"Ferrer"
 		]
 	},
 	"regexfunctions-desc": "Функции парсера с регулярными выражениями",
