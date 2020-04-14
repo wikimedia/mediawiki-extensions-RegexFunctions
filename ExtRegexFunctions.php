@@ -78,7 +78,7 @@ class ExtRegexFunctions {
 		}
 
 		// discard unsupported options
-		$options = array_intersect( $options, ['m', 'i', 'U', 'x', 's'] );
+		$options = array_intersect( $options, [ 'm', 'i', 'U', 'x', 's' ] );
 
 		// test for named options
 		if ( self::getLocalizedArgument( $frame, 'multiline' ) ) {
@@ -132,7 +132,7 @@ class ExtRegexFunctions {
 	 * then: text to display if the match is successful
 	 * else: text to display if the match is not successful, blank if not defined
 	 *
-	 * @param Parser $parser
+	 * @param Parser &$parser
 	 * @param PPFrame $frame
 	 * @param PPNode[] $args
 	 * @return string Expanded wikitext result of parser function
@@ -167,7 +167,7 @@ class ExtRegexFunctions {
 		return preg_replace_callback(
 			'/[$\\\\]([0-9]+)|\${([0-9]+)}/',
 			function ( $backRefs ) use ( $matches ) {
-				if ( $backRefs[1] !== '' && array_key_exists( $backRefs[1], $matches) ) {
+				if ( $backRefs[1] !== '' && array_key_exists( $backRefs[1], $matches ) ) {
 					return $matches[$backRefs[1]];
 				}
 
@@ -190,7 +190,7 @@ class ExtRegexFunctions {
 	 * All named arguments in getPatternAndOptions
 	 * piece: Piece to return, starting at 0. Negative returns from the end.
 	 *
-	 * @param Parser $parser
+	 * @param Parser &$parser
 	 * @param PPFrame $frame
 	 * @param PPNode[] $args
 	 * @return string
@@ -226,9 +226,9 @@ class ExtRegexFunctions {
 	 *
 	 * {{#rreplace:string|pattern|replacement}}
 	 *
-	 * @param Parser $parser
+	 * @param Parser &$parser
 	 * @param PPFrame $frame
-	 * @param $args
+	 * @param string $args
 	 * @return string
 	 */
 	public static function rreplace( Parser &$parser, PPFrame $frame, $args ) {
