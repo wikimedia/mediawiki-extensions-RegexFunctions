@@ -4,5 +4,15 @@
 			"Jon Harald Søby"
 		]
 	},
-	"regexfunctions-desc": "Parserfunksjon for regulære uttrykk"
+	"regexfunctions-desc": "Parserfunksjon for regulære uttrykk",
+	"regexfunctions-arg-pattern": "mønster",
+	"regexfunctions-arg-multiline": "flere linjer",
+	"regexfunctions-arg-caseless": "uten hensyn til store/små bokstaver",
+	"regexfunctions-arg-ungreedy": "ikke-grådig",
+	"regexfunctions-arg-extended": "utvidet",
+	"regexfunctions-arg-dotall": "dotall",
+	"regexfunctions-arg-then": "then",
+	"regexfunctions-arg-else": "else",
+	"regexfunctions-arg-piece": "piece",
+	"regexfunctions-arg-replacement": "erstatning"
 }
