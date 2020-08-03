@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"MuratTheTurkish",
 			"Vito Genovese"
 		]
 	},
-	"regexfunctions-desc": "Kurallı ifade ayrıştırıcı fonksiyonları",
+	"regexfunctions-desc": "Düzenli ifade ayrıştırıcı işlevleri",
 	"regexfunctions-arg-pattern": "desen",
 	"regexfunctions-arg-multiline": "satırlı",
 	"regexfunctions-arg-caseless": "kovansız",
