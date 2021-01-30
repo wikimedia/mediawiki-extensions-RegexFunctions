@@ -1,6 +1,6 @@
 {
 	"@metadata": {
-		"authors": ["Ryan Schmidt"]
+		"authors": [ "Ryan Schmidt" ]
 	},
 	"regexfunctions-desc": "Regular expression parser functions",
 	"regexfunctions-arg-pattern": "pattern",
