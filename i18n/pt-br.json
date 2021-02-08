@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eduardo Addad de Oliveira",
-			"Eduardo.mps"
+			"Eduardo.mps",
+			"Eduardoaddad"
 		]
 	},
 	"regexfunctions-desc": "Funções de análise (parser) para expressões regulares",
