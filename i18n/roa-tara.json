@@ -4,5 +4,9 @@
 			"Joetaras"
 		]
 	},
-	"regexfunctions-desc": "Funziune d'u 'nderprete de le espressiune regolere"
+	"regexfunctions-desc": "Funziune d'u 'nderprete de le espressiune regolere",
+	"regexfunctions-arg-pattern": "pattern",
+	"regexfunctions-arg-multiline": "multilinèe",
+	"regexfunctions-arg-then": "allore",
+	"regexfunctions-arg-else": "altrimende"
 }
