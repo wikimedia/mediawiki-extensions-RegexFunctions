@@ -7,6 +7,12 @@
 	"regexfunctions-desc": "Funziune d'u 'nderprete de le espressiune regolere",
 	"regexfunctions-arg-pattern": "pattern",
 	"regexfunctions-arg-multiline": "multilinèe",
+	"regexfunctions-arg-caseless": "senze differenza tra maiuscole e minuscole (caseless)",
+	"regexfunctions-arg-ungreedy": "none abbondande",
+	"regexfunctions-arg-extended": "stennute",
+	"regexfunctions-arg-dotall": "tutte le punde",
 	"regexfunctions-arg-then": "allore",
-	"regexfunctions-arg-else": "altrimende"
+	"regexfunctions-arg-else": "altrimende",
+	"regexfunctions-arg-piece": "'nu stuèzze",
+	"regexfunctions-arg-replacement": "sostituzione"
 }
