@@ -166,7 +166,7 @@ class ExtRegexFunctions {
 		// expand back-references in $then
 		return preg_replace_callback(
 			'/[$\\\\]([0-9]+)|\${([0-9]+)}/',
-			function ( $backRefs ) use ( $matches ) {
+			static function ( $backRefs ) use ( $matches ) {
 				if ( $backRefs[1] !== '' && array_key_exists( $backRefs[1], $matches ) ) {
 					return $matches[$backRefs[1]];
 				}
