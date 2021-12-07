@@ -1,6 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Umlaut"
+		]
 	},
-	"regexfunctions-desc": "Parserfunktionen für reguläre Ausdrücke"
+	"regexfunctions-desc": "Parserfunktionen für reguläre Ausdrücke",
+	"regexfunctions-arg-then": "dann",
+	"regexfunctions-arg-else": "sonst"
 }
