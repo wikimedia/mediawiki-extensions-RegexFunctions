@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"Romaine"
 		]
 	},
-	"regexfunctions-desc": "Parserfuncties voor reguliere expressies"
+	"regexfunctions-desc": "Parserfuncties voor reguliere expressies",
+	"regexfunctions-arg-pattern": "patroon"
 }

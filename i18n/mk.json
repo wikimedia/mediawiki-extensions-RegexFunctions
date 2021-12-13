@@ -4,5 +4,15 @@
 			"Bjankuloski06"
 		]
 	},
-	"regexfunctions-desc": "Расчленувачки функции со регуларен израз"
+	"regexfunctions-desc": "Расчленувачки функции со регуларен израз",
+	"regexfunctions-arg-pattern": "шема",
+	"regexfunctions-arg-multiline": "повеќередно",
+	"regexfunctions-arg-caseless": "не разликувајќи мали/големи букви",
+	"regexfunctions-arg-ungreedy": "неалчно",
+	"regexfunctions-arg-extended": "проширено",
+	"regexfunctions-arg-dotall": "точка за сите",
+	"regexfunctions-arg-then": "тогаш",
+	"regexfunctions-arg-else": "инаку",
+	"regexfunctions-arg-piece": "парче",
+	"regexfunctions-arg-replacement": "замена"
 }
