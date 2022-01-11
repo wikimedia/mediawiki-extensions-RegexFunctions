@@ -1,8 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hydra"
+			"Hydra",
+			"SolidBlock"
 		]
 	},
-	"regexfunctions-desc": "正则表达式解析器功能"
+	"regexfunctions-desc": "正则表达式解析器功能",
+	"regexfunctions-arg-pattern": "模式",
+	"regexfunctions-arg-multiline": "多行",
+	"regexfunctions-arg-caseless": "大小写敏感",
+	"regexfunctions-arg-ungreedy": "非贪婪",
+	"regexfunctions-arg-extended": "扩展",
+	"regexfunctions-arg-dotall": "点表示全部",
+	"regexfunctions-arg-then": "然后",
+	"regexfunctions-arg-else": "否则",
+	"regexfunctions-arg-piece": "部分",
+	"regexfunctions-arg-replacement": "替换"
 }
