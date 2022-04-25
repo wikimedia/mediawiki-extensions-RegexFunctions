@@ -2,12 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
-			"Sanbec"
+			"Sanbec",
+			"DiegoAmbrocio"
 		]
 	},
 	"regexfunctions-desc": "Funciones sintácticas de expresiones regulares",
 	"regexfunctions-arg-pattern": "patrón",
 	"regexfunctions-arg-multiline": "multirrenglón",
 	"regexfunctions-arg-caseless": "sin distinción de mayusculación",
+	"regexfunctions-arg-ungreedy": "Sin embargo,",
+	"regexfunctions-arg-extended": "extendido",
+	"regexfunctions-arg-then": "entonces",
+	"regexfunctions-arg-else": "si no",
+	"regexfunctions-arg-piece": "pieza",
 	"regexfunctions-arg-replacement": "sustitución"
 }
