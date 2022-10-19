@@ -4,5 +4,15 @@
 			"McDutchie"
 		]
 	},
-	"regexfunctions-desc": "Functiones del analysator syntactic pro expressiones regular"
+	"regexfunctions-desc": "Functiones del analysator syntactic pro expressiones regular",
+	"regexfunctions-arg-pattern": "patrono",
+	"regexfunctions-arg-multiline": "multilinea",
+	"regexfunctions-arg-caseless": "insensibile al majusculas",
+	"regexfunctions-arg-ungreedy": "non avide",
+	"regexfunctions-arg-extended": "extendite",
+	"regexfunctions-arg-dotall": "puncto toto",
+	"regexfunctions-arg-then": "alora",
+	"regexfunctions-arg-else": "si non",
+	"regexfunctions-arg-piece": "pecia",
+	"regexfunctions-arg-replacement": "reimplaciamento"
 }
