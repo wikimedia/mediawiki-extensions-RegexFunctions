@@ -3,14 +3,15 @@
 		"authors": [
 			"Fitoschido",
 			"Sanbec",
-			"DiegoAmbrocio"
+			"DiegoAmbrocio",
+			"McDutchie"
 		]
 	},
 	"regexfunctions-desc": "Funciones sintácticas de expresiones regulares",
 	"regexfunctions-arg-pattern": "patrón",
 	"regexfunctions-arg-multiline": "multirrenglón",
 	"regexfunctions-arg-caseless": "sin distinción de mayusculación",
-	"regexfunctions-arg-ungreedy": "Sin embargo,",
+	"regexfunctions-arg-ungreedy": "no codiciosa",
 	"regexfunctions-arg-extended": "extendido",
 	"regexfunctions-arg-then": "entonces",
 	"regexfunctions-arg-else": "si no",
