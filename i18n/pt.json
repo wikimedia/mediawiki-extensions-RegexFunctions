@@ -5,5 +5,15 @@
 			"Waldir"
 		]
 	},
-	"regexfunctions-desc": "Funções do analisador sintático para expressões regulares"
+	"regexfunctions-desc": "Funções do analisador sintático para expressões regulares",
+	"regexfunctions-arg-pattern": "padrão",
+	"regexfunctions-arg-multiline": "multilinha",
+	"regexfunctions-arg-caseless": "semcaixa",
+	"regexfunctions-arg-ungreedy": "generoso",
+	"regexfunctions-arg-extended": "estendido",
+	"regexfunctions-arg-dotall": "pontotudo",
+	"regexfunctions-arg-then": "então",
+	"regexfunctions-arg-else": "senão",
+	"regexfunctions-arg-piece": "peça",
+	"regexfunctions-arg-replacement": "substituição"
 }
