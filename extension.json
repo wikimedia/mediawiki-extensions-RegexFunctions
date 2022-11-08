@@ -20,7 +20,7 @@
 		"ParserFirstCallInit": "ExtRegexFunctions::onParserFirstCallInit"
 	},
 	"AutoloadClasses": {
-		"ExtRegexFunctions": "ExtRegexFunctions.php"
+		"ExtRegexFunctions": "src/ExtRegexFunctions.php"
 	},
 	"manifest_version": 2
 }
