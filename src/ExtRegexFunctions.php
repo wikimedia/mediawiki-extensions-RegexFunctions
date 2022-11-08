@@ -167,11 +167,11 @@ class ExtRegexFunctions {
 		return preg_replace_callback(
 			'/[$\\\\]([0-9]+)|\${([0-9]+)}/',
 			static function ( $backRefs ) use ( $matches ) {
-				if ( $backRefs[1] !== '' && array_key_exists( $backRefs[1], $matches ) ) {
+				if ( ( $backRefs[1] ?? '' ) !== '' && array_key_exists( $backRefs[1], $matches ) ) {
 					return $matches[$backRefs[1]];
 				}
 
-				if ( $backRefs[2] !== '' && array_key_exists( $backRefs[2], $matches ) ) {
+				if ( ( $backRefs[2] ?? '' ) !== '' && array_key_exists( $backRefs[2], $matches ) ) {
 					return $matches[$backRefs[2]];
 				}
 
@@ -228,7 +228,7 @@ class ExtRegexFunctions {
 	 *
 	 * @param Parser &$parser
 	 * @param PPFrame $frame
-	 * @param string $args
+	 * @param PPNode[] $args
 	 * @return string
 	 */
 	public static function rreplace( Parser &$parser, PPFrame $frame, $args ) {
