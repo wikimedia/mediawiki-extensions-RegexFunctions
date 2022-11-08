@@ -1,0 +1,41 @@
+!! Version 2
+!! test
+basic rmatch with successful match
+!! wikitext
+{{#rmatch:this is some page content|\bcontent$|it matched|did not match}}
+!! html
+<p>it matched
+</p>
+!! end
+!! test
+basic rmatch with failed match
+!! wikitext
+{{#rmatch:this is some page content|^not matching regex|it matched|did not match}}
+!! html
+<p>did not match
+</p>
+!! end
+!! test
+successful rmatch with backreference
+!! wikitext
+{{#rmatch:this is some page content|^(.+)\s\bcontent$|it expands backreference: $1|did not match}}
+!! html
+<p>it expands backreference: this is some page
+</p>
+!! end
+!! test
+successful rmatch with second backreference
+!! wikitext
+{{#rmatch:this is some page content|^(.+)\s\bsome\s(.+)\s\bcontent$|it expands backreference: $2|did not match}}
+!! html
+<p>it expands backreference: page
+</p>
+!! end
+!! test
+successful rmatch with spurious capturing group
+!! wikitext
+{{#rmatch:this is some page content|^(.+)\s\bcontent$|this is a spurious backref: $52 will be removed|did not match}}
+!! html
+<p>this is a spurious backref:  will be removed
+</p>
+!! end
