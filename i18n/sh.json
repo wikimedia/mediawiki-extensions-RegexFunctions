@@ -4,5 +4,6 @@
 			"Vlad5250"
 		]
 	},
-	"regexfunctions-desc": "Raščlanjivačke funkcije s regularnim izrazom"
+	"regexfunctions-desc": "Raščlanjivačke funkcije s regularnim izrazom",
+	"regexfunctions-arg-pattern": "uzorak"
 }
