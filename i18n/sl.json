@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"regexfunctions-desc": "Funkcije razčlenjevalnika regularnih izrazov",
+	"regexfunctions-arg-pattern": "vzorec",
+	"regexfunctions-arg-multiline": "večvrstično",
+	"regexfunctions-arg-caseless": "nerazlikujoče",
+	"regexfunctions-arg-ungreedy": "nepožrešno",
+	"regexfunctions-arg-extended": "razširjeno",
+	"regexfunctions-arg-dotall": "nadomestni znak",
+	"regexfunctions-arg-then": "potem",
+	"regexfunctions-arg-else": "sicer",
+	"regexfunctions-arg-piece": "element",
+	"regexfunctions-arg-replacement": "nadomestilo"
+}
