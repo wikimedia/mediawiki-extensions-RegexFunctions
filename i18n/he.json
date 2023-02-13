@@ -1,8 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rotemliss"
+			"Rotemliss",
+			"Amire80"
 		]
 	},
-	"regexfunctions-desc": "פונקציות פענוח לביטויים רגולריים"
+	"regexfunctions-desc": "פונקציות פענוח לביטויים רגולריים",
+	"regexfunctions-arg-pattern": "תבנית",
+	"regexfunctions-arg-multiline": "שורות מרובות",
+	"regexfunctions-arg-caseless": "לא תלוית רישיות",
+	"regexfunctions-arg-ungreedy": "לא חמדנית",
+	"regexfunctions-arg-extended": "מורחבת",
+	"regexfunctions-arg-dotall": "נקודה מייצגת כל תו",
+	"regexfunctions-arg-then": "אזי",
+	"regexfunctions-arg-else": "אחרת",
+	"regexfunctions-arg-piece": "חלק",
+	"regexfunctions-arg-replacement": "החלפה"
 }
