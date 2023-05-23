@@ -1,8 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25"
+			"Meno25",
+			"Alshamiri1"
 		]
 	},
-	"regexfunctions-desc": "دوال محلل تعبيرات منتظمة"
+	"regexfunctions-desc": "دوال محلل تعبيرات منتظمة",
+	"regexfunctions-arg-pattern": "النمط",
+	"regexfunctions-arg-multiline": "متعدد الأسطر",
+	"regexfunctions-arg-caseless": "بلا غلاف",
+	"regexfunctions-arg-ungreedy": "غير جشع",
+	"regexfunctions-arg-extended": "موسع",
+	"regexfunctions-arg-then": "ثم",
+	"regexfunctions-arg-else": "آخر",
+	"regexfunctions-arg-piece": "قطعة",
+	"regexfunctions-arg-replacement": "إستبدال"
 }
