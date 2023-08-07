@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"regexfunctions-desc": "Raščlanjivačke funkcije s regularnim izrazom",
+	"regexfunctions-arg-pattern": "uzorak"
+}
