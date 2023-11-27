@@ -2,9 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Siebrand",
-			"Romaine"
+			"Romaine",
+			"McDutchie"
 		]
 	},
 	"regexfunctions-desc": "Parserfuncties voor reguliere expressies",
-	"regexfunctions-arg-pattern": "patroon"
+	"regexfunctions-arg-pattern": "patroon",
+	"regexfunctions-arg-multiline": "meerregelig",
+	"regexfunctions-arg-caseless": "hoofdletterongevoelig",
+	"regexfunctions-arg-ungreedy": "ongretig",
+	"regexfunctions-arg-extended": "uitgebreid",
+	"regexfunctions-arg-dotall": "puntalles",
+	"regexfunctions-arg-then": "dan",
+	"regexfunctions-arg-else": "anders",
+	"regexfunctions-arg-piece": "stuk",
+	"regexfunctions-arg-replacement": "vervanging"
 }
