@@ -206,7 +206,7 @@ class ExtRegexFunctions {
 
 		// allow negative pieces to work from the end of the array
 		if ( $piece < 0 ) {
-			$piece = $piece + count( $res );
+			$piece += count( $res );
 		}
 
 		// sanitation for pieces that don't exist
