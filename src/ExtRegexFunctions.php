@@ -112,8 +112,8 @@ class ExtRegexFunctions {
 		$replacements = [
 			'\\\\'  => "\xfe1", // replace all escaped backslashes with a placeholder
 			'\\/'   => "\xfe2", // replace all escaped slashes with a placeholder
-			'/'     => '\\/',   // replace all unescaped slashes with escaped slashes
-			"\xfe2" => '\\/',   // undo placeholder
+			'/'     => '\\/', // replace all unescaped slashes with escaped slashes
+			"\xfe2" => '\\/', // undo placeholder
 			"\xfe1" => '\\\\'   // undo placeholder
 		];
 
