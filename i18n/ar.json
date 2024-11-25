@@ -11,6 +11,7 @@
 	"regexfunctions-arg-caseless": "بلا غلاف",
 	"regexfunctions-arg-ungreedy": "غير جشع",
 	"regexfunctions-arg-extended": "موسع",
+	"regexfunctions-arg-dotall": "نقطة كاملة",
 	"regexfunctions-arg-then": "ثم",
 	"regexfunctions-arg-else": "آخر",
 	"regexfunctions-arg-piece": "قطعة",
