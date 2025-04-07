@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"regexfunctions-desc": "Parserfunktioune fir regulär Ausdréck",
+	"regexfunctions-arg-extended": "erweidert",
+	"regexfunctions-arg-then": "dann",
 	"regexfunctions-arg-else": "soss",
 	"regexfunctions-arg-piece": "Stéck"
 }
