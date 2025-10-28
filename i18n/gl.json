@@ -4,5 +4,15 @@
 			"Toliño"
 		]
 	},
-	"regexfunctions-desc": "Funcións de análise de expresións regulares"
+	"regexfunctions-desc": "Funcións de análise de expresións regulares",
+	"regexfunctions-arg-pattern": "patrón",
+	"regexfunctions-arg-multiline": "multiliña",
+	"regexfunctions-arg-caseless": "sen distinción entre maiúsculas e minúsculas",
+	"regexfunctions-arg-ungreedy": "non avaro",
+	"regexfunctions-arg-extended": "estendido",
+	"regexfunctions-arg-dotall": "permisivo",
+	"regexfunctions-arg-then": "entón",
+	"regexfunctions-arg-else": "se non",
+	"regexfunctions-arg-piece": "peza",
+	"regexfunctions-arg-replacement": "substitución"
 }
