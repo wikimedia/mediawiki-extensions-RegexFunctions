@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"regexfunctions-desc": "د سمدودې څرگندونې تجزيه‌کوونکې کړنچارې",
+	"regexfunctions-arg-pattern": "مخبېلگه",
+	"regexfunctions-arg-multiline": "څوکرښي",
+	"regexfunctions-arg-caseless": "بې‌پوښه",
+	"regexfunctions-arg-ungreedy": "موړ",
+	"regexfunctions-arg-extended": "غځېدلی",
+	"regexfunctions-arg-dotall": "ټولو لپاره ټکي",
+	"regexfunctions-arg-then": "بيا",
+	"regexfunctions-arg-else": "بل",
+	"regexfunctions-arg-piece": "ټوټه",
+	"regexfunctions-arg-replacement": "ځای‌ناستی"
+}
