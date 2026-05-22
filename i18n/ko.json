@@ -1,8 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kwj2772"
+			"Kwj2772",
+			"Tensama0415"
 		]
 	},
-	"regexfunctions-desc": "정규 표현식 파서 함수"
+	"regexfunctions-desc": "정규 표현식 파서 함수",
+	"regexfunctions-arg-pattern": "패턴",
+	"regexfunctions-arg-multiline": "여러 줄",
+	"regexfunctions-arg-caseless": "대소문자 구분 없음",
+	"regexfunctions-arg-ungreedy": "탐욕적이지 않음",
+	"regexfunctions-arg-extended": "확장됨",
+	"regexfunctions-arg-dotall": "dotall",
+	"regexfunctions-arg-then": "그러면",
+	"regexfunctions-arg-else": "그렇지 않으면",
+	"regexfunctions-arg-piece": "piece",
+	"regexfunctions-arg-replacement": "대체"
 }
