@@ -1,8 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Wizzard"
 		]
 	},
-	"regexfunctions-desc": "Funkcie syntaktického analyzátora regulárnych výrazov"
+	"regexfunctions-desc": "Funkcie syntaktického analyzátora regulárnych výrazov",
+	"regexfunctions-arg-pattern": "pattern",
+	"regexfunctions-arg-multiline": "multiline",
+	"regexfunctions-arg-caseless": "caseless",
+	"regexfunctions-arg-ungreedy": "ungreedy",
+	"regexfunctions-arg-extended": "extended",
+	"regexfunctions-arg-dotall": "dotall",
+	"regexfunctions-arg-then": "then",
+	"regexfunctions-arg-else": "else",
+	"regexfunctions-arg-piece": "piece",
+	"regexfunctions-arg-replacement": "replacement"
 }
